@@ -1,11 +1,11 @@
 <?xml version = "1.0"?>
 <launch>
 <!-- Launch gazebo -->
-<include file="$(find full_rover_assembly_urdf)/launch/gazebo.launch"></include>
+<include file="$(find mars_rover)/launch/gazebo.launch"></include>
 
 <!-- Load joint controller configuration from YAML file to parameter server -->
-<rosparam file="$(find full_rover_assembly_urdf)/config/joint_states.yaml" command="load"/>
-<rosparam file="$(find full_rover_assembly_urdf)/config/diff_drive.yaml" command="load"/>
+<rosparam file="$(find mars_rover)/config/joint_states.yaml" command="load"/>
+<rosparam file="$(find mars_rover)/config/diff_drive.yaml" command="load"/>
 
 
 <!-- load the controllers -->

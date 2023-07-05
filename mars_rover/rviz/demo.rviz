@@ -54,6 +54,8 @@ Visualization Manager:
         All Enabled: true
         base_rover_1:
           Value: true
+        base_depth:
+          Value: true
         odom:
           Value: true
       Marker Scale: 200

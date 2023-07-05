@@ -5,14 +5,13 @@
     <include>
       <uri>model://sun</uri>
     </include>
-
   <model name='terrain'>
     <static>true</static>
     <pose>1 -1 -1.5 0 0 0</pose>
       <link name='terrain_surface'>
         <collision name="collision">
           <geometry>
-            <mesh><uri>/home/anurag/rover_ws/src/full_rover_assembly_urdf/gazebo_worlds/surface1.stl</uri></mesh>
+            <mesh><uri>surface1.stl</uri></mesh>
           </geometry>
           <surface>
             <friction>
@@ -26,11 +25,11 @@
         <visual name='visual'>
           <cast_shadows>false</cast_shadows>
           <geometry>
-            <mesh><uri>/home/anurag/rover_ws/src/full_rover_assembly_urdf/gazebo_worlds/surface1.stl</uri></mesh>
+            <mesh><uri>surface1.stl</uri></mesh>
           </geometry>
           <material>
             <script>
-              <uri>/home/anurag/rover_ws/src/full_rover_assembly_urdf/Materials/terrain.material</uri>
+              <uri>Materials/terrain.material</uri>
               <name>terrain/mars_terrain</name>
             </script>
           </material>
@@ -51,13 +50,13 @@
         </visual>
         <sensor name='my_camera' type='camera'>
           <camera>
-            <save enabled="true">
+            <save enabled="false">
               <path>/tmp/gazebo_camera_video</path>
             </save>
             <horizontal_fov>1.047</horizontal_fov>
             <image>
-              <width>1920</width>
-              <height>1080</height>
+              <width>640</width>
+              <height>480</height>
             </image>
             <clip>
               <near>0.1</near>

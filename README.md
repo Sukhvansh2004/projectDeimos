@@ -64,7 +64,7 @@ roslaunch full_rover_assembly_urdf gazebo.launch
 
 ********************************************Examples of Simulation********************************************
 
-![Screenshot from 2023-01-22 12-40-12.png](README%20-%20Gazebo%20Simulation%20e5fdab83ec1349ba8c07f90dcfd49f0e/Screenshot_from_2023-01-22_12-40-12.png)
+![Screenshot from 2023-01-22 12-40-12.png](images/Screenshot_from_2023-01-22_12-40-12.png)
 
 ## Packages utilized
 
