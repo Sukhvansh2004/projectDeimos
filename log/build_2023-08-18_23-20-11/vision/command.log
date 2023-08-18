@@ -1,0 +1,2 @@
+Invoking command in '/home/sukhvansh/Desktop/URC/build/vision': /usr/bin/cmake /home/sukhvansh/Desktop/URC/src/vision -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/sukhvansh/Desktop/URC/install/vision
+Invoked command in '/home/sukhvansh/Desktop/URC/build/vision' returned '1': /usr/bin/cmake /home/sukhvansh/Desktop/URC/src/vision -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/sukhvansh/Desktop/URC/install/vision

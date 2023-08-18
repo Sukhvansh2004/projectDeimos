@@ -1,0 +1,2 @@
+Invoking command in '/home/sukhvansh/Desktop/URC/build/mars_rover': /usr/bin/cmake /home/sukhvansh/Desktop/URC/src/mars_rover -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/sukhvansh/Desktop/URC/install/mars_rover
+Invoked command in '/home/sukhvansh/Desktop/URC/build/mars_rover' returned '1': /usr/bin/cmake /home/sukhvansh/Desktop/URC/src/mars_rover -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/sukhvansh/Desktop/URC/install/mars_rover

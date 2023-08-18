@@ -1,0 +1,33 @@
+[0.023s] Invoking command in '/home/sukhvansh/Desktop/URC/build/arm_teleop': /usr/bin/cmake /home/sukhvansh/Desktop/URC/src/arm_teleop -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/sukhvansh/Desktop/URC/install/arm_teleop
+[0.157s] -- The C compiler identification is GNU 11.4.0
+[0.244s] -- The CXX compiler identification is GNU 11.4.0
+[0.252s] -- Detecting C compiler ABI info
+[0.298s] -- Detecting C compiler ABI info - done
+[0.304s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.304s] -- Detecting C compile features
+[0.304s] -- Detecting C compile features - done
+[0.307s] -- Detecting CXX compiler ABI info
+[0.357s] -- Detecting CXX compiler ABI info - done
+[0.363s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.363s] -- Detecting CXX compile features
+[0.363s] -- Detecting CXX compile features - done
+[0.378s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[0.378s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.378s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.378s]   CMake did not find one.
+[0.378s] 
+[0.378s]   Could not find a package configuration file provided by "catkin" with any
+[0.378s]   of the following names:
+[0.379s] 
+[0.379s]     catkinConfig.cmake
+[0.379s]     catkin-config.cmake
+[0.379s] 
+[0.379s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.379s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.379s]   provides a separate development package or SDK, be sure it has been
+[0.379s]   installed.
+[0.379s] 
+[0.379s] [0m
+[0.379s] -- Configuring incomplete, errors occurred!
+[0.379s] See also "/home/sukhvansh/Desktop/URC/build/arm_teleop/CMakeFiles/CMakeOutput.log".
+[0.380s] Invoked command in '/home/sukhvansh/Desktop/URC/build/arm_teleop' returned '1': /usr/bin/cmake /home/sukhvansh/Desktop/URC/src/arm_teleop -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/sukhvansh/Desktop/URC/install/arm_teleop
